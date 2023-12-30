@@ -1,0 +1,392 @@
+# //  ModelSim SE-64 10.7f Mar 24 2020
+# //
+# //  Copyright 1991-2020 Mentor Graphics Corporation
+# //  All Rights Reserved.
+# //
+# //  ModelSim SE-64 and its associated documentation contain trade
+# //  secrets and commercial or financial information that are the property of
+# //  Mentor Graphics Corporation and are privileged, confidential,
+# //  and exempt from disclosure under the Freedom of Information Act,
+# //  5 U.S.C. Section 552. Furthermore, this information
+# //  is prohibited from disclosure under the Trade Secrets Act,
+# //  18 U.S.C. Section 1905.
+# //
+# do class.do
+# Model Technology ModelSim SE-64 vlog 10.7f Compiler 2020.03 Mar 24 2020
+# Start time: 14:40:31 on Apr 28,2022
+# vlog -reportprogress 300 comparator.sv counter.sv flopenr.sv des.sv control.sv top.sv tb_class.sv 
+# -- Compiling module comparator
+# -- Compiling module UDL_Count
+# -- Compiling module flop
+# -- Compiling module genParity
+# -- Compiling module genParity8
+# -- Compiling module flopenr
+# -- Compiling module GenerateKeys
+# -- Compiling module PC1
+# -- Compiling module PC2
+# -- Compiling module SF
+# -- Compiling module EF
+# -- Compiling module feistel
+# -- Compiling module round
+# -- Compiling module IP
+# -- Compiling module FP
+# -- Compiling module S1_Box
+# -- Compiling module S2_Box
+# -- Compiling module S3_Box
+# -- Compiling module S4_Box
+# -- Compiling module S5_Box
+# -- Compiling module S6_Box
+# -- Compiling module S7_Box
+# -- Compiling module S8_Box
+# -- Compiling module DES
+# -- Compiling module control
+# -- Compiling module top
+# -- Compiling module stimulus_class
+# 
+# Top level modules:
+# 	stimulus_class
+# End time: 14:40:31 on Apr 28,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vsim -voptargs="+acc" work.stimulus_class 
+# Start time: 14:40:31 on Apr 28,2022
+# ** Note: (vsim-3812) Design is being optimized...
+# ** Note: (vopt-143) Recognized 1 FSM in module "control(fast)".
+# Loading sv_std.std
+# Loading work.stimulus_class(fast)
+# Loading work.top(fast)
+# Loading work.control(fast)
+# Loading work.UDL_Count(fast)
+# Loading work.flop(fast)
+# Loading work.genParity8(fast)
+# Loading work.genParity(fast)
+# Loading work.DES(fast)
+# Loading work.GenerateKeys(fast)
+# Loading work.PC1(fast)
+# Loading work.PC2(fast)
+# Loading work.IP(fast)
+# Loading work.round(fast)
+# Loading work.feistel(fast)
+# Loading work.EF(fast)
+# Loading work.S1_Box(fast)
+# Loading work.S2_Box(fast)
+# Loading work.S3_Box(fast)
+# Loading work.S4_Box(fast)
+# Loading work.S5_Box(fast)
+# Loading work.S6_Box(fast)
+# Loading work.S7_Box(fast)
+# Loading work.S8_Box(fast)
+# Loading work.SF(fast)
+# Loading work.FP(fast)
+# Loading work.flopenr(fast)
+# Loading work.comparator(fast)
+# ** Warning: (vsim-3015) [PCDPC] - Port size (8) does not match connection size (64) for port 'a'. The port definition is at: comparator.sv(2).
+#    Time: 0 ps  Iteration: 0  Instance: /stimulus_class/dut_1/c File: top.sv Line: 32
+# ** Warning: (vsim-3015) [PCDPC] - Port size (8) does not match connection size (64) for port 'b'. The port definition is at: comparator.sv(2).
+#    Time: 0 ps  Iteration: 0  Instance: /stimulus_class/dut_1/c File: top.sv Line: 32
+# Found key!
+# ** Note: $stop    : tb_class.sv(55)
+#    Time: 880 ns  Iteration: 1  Instance: /stimulus_class
+# Break in Module stimulus_class at tb_class.sv line 55
+do class.do
+# ** Warning: (vdel-134) Unable to remove locked optimized design "_opt".  Locker is mimccom@CEAT-ENDV360-27.
+# ** Warning: (vlib-34) Library already exists at "work".
+# Model Technology ModelSim SE-64 vlog 10.7f Compiler 2020.03 Mar 24 2020
+# Start time: 14:42:44 on Apr 28,2022
+# vlog -reportprogress 300 comparator.sv counter.sv flopenr.sv des.sv control.sv top.sv tb_class.sv 
+# -- Compiling module comparator
+# -- Compiling module UDL_Count
+# -- Compiling module flop
+# -- Compiling module genParity
+# -- Compiling module genParity8
+# -- Compiling module flopenr
+# -- Compiling module GenerateKeys
+# -- Compiling module PC1
+# -- Compiling module PC2
+# -- Compiling module SF
+# -- Compiling module EF
+# -- Compiling module feistel
+# -- Compiling module round
+# -- Compiling module IP
+# -- Compiling module FP
+# -- Compiling module S1_Box
+# -- Compiling module S2_Box
+# -- Compiling module S3_Box
+# -- Compiling module S4_Box
+# -- Compiling module S5_Box
+# -- Compiling module S6_Box
+# -- Compiling module S7_Box
+# -- Compiling module S8_Box
+# -- Compiling module DES
+# -- Compiling module control
+# -- Compiling module top
+# -- Compiling module stimulus_class
+# 
+# Top level modules:
+# 	stimulus_class
+# End time: 14:42:44 on Apr 28,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# End time: 14:42:45 on Apr 28,2022, Elapsed time: 0:02:14
+# Errors: 0, Warnings: 3
+# vsim -voptargs="+acc" work.stimulus_class 
+# Start time: 14:42:45 on Apr 28,2022
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# Loading sv_std.std
+# Loading work.stimulus_class(fast)
+# Loading work.top(fast)
+# Loading work.control(fast)
+# Loading work.UDL_Count(fast)
+# Loading work.flop(fast)
+# Loading work.genParity8(fast)
+# Loading work.genParity(fast)
+# Loading work.DES(fast)
+# Loading work.GenerateKeys(fast)
+# Loading work.PC1(fast)
+# Loading work.PC2(fast)
+# Loading work.IP(fast)
+# Loading work.round(fast)
+# Loading work.feistel(fast)
+# Loading work.EF(fast)
+# Loading work.S1_Box(fast)
+# Loading work.S2_Box(fast)
+# Loading work.S3_Box(fast)
+# Loading work.S4_Box(fast)
+# Loading work.S5_Box(fast)
+# Loading work.S6_Box(fast)
+# Loading work.S7_Box(fast)
+# Loading work.S8_Box(fast)
+# Loading work.SF(fast)
+# Loading work.FP(fast)
+# Loading work.flopenr(fast)
+# Loading work.comparator(fast)
+# Found key!
+# ** Note: $stop    : tb_class.sv(55)
+#    Time: 885 ns  Iteration: 1  Instance: /stimulus_class
+# Break in Module stimulus_class at tb_class.sv line 55
+do class.do
+# ** Warning: (vdel-134) Unable to remove locked optimized design "_opt".  Locker is mimccom@CEAT-ENDV360-27.
+# ** Warning: (vlib-34) Library already exists at "work".
+# Model Technology ModelSim SE-64 vlog 10.7f Compiler 2020.03 Mar 24 2020
+# Start time: 14:46:15 on Apr 28,2022
+# vlog -reportprogress 300 comparator.sv counter.sv flopenr.sv des.sv control.sv top.sv tb_class.sv 
+# -- Compiling module comparator
+# -- Compiling module UDL_Count
+# -- Compiling module flop
+# -- Compiling module genParity
+# -- Compiling module genParity8
+# -- Compiling module flopenr
+# -- Compiling module GenerateKeys
+# -- Compiling module PC1
+# -- Compiling module PC2
+# -- Compiling module SF
+# -- Compiling module EF
+# -- Compiling module feistel
+# -- Compiling module round
+# -- Compiling module IP
+# -- Compiling module FP
+# -- Compiling module S1_Box
+# -- Compiling module S2_Box
+# -- Compiling module S3_Box
+# -- Compiling module S4_Box
+# -- Compiling module S5_Box
+# -- Compiling module S6_Box
+# -- Compiling module S7_Box
+# -- Compiling module S8_Box
+# -- Compiling module DES
+# -- Compiling module control
+# -- Compiling module top
+# -- Compiling module stimulus_class
+# 
+# Top level modules:
+# 	stimulus_class
+# End time: 14:46:15 on Apr 28,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# End time: 14:46:15 on Apr 28,2022, Elapsed time: 0:03:30
+# Errors: 0, Warnings: 1
+# vsim -voptargs="+acc" work.stimulus_class 
+# Start time: 14:46:15 on Apr 28,2022
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# ** Note: (vopt-143) Recognized 1 FSM in module "control(fast)".
+# Loading sv_std.std
+# Loading work.stimulus_class(fast)
+# Loading work.top(fast)
+# Loading work.control(fast)
+# Loading work.UDL_Count(fast)
+# Loading work.flop(fast)
+# Loading work.genParity8(fast)
+# Loading work.genParity(fast)
+# Loading work.DES(fast)
+# Loading work.GenerateKeys(fast)
+# Loading work.PC1(fast)
+# Loading work.PC2(fast)
+# Loading work.IP(fast)
+# Loading work.round(fast)
+# Loading work.feistel(fast)
+# Loading work.EF(fast)
+# Loading work.S1_Box(fast)
+# Loading work.S2_Box(fast)
+# Loading work.S3_Box(fast)
+# Loading work.S4_Box(fast)
+# Loading work.S5_Box(fast)
+# Loading work.S6_Box(fast)
+# Loading work.S7_Box(fast)
+# Loading work.S8_Box(fast)
+# Loading work.SF(fast)
+# Loading work.FP(fast)
+# Loading work.flopenr(fast)
+# Loading work.comparator(fast)
+# Found key!
+# ** Note: $stop    : tb_class.sv(55)
+#    Time: 885 ns  Iteration: 1  Instance: /stimulus_class
+# Break in Module stimulus_class at tb_class.sv line 55
+do class.do
+# ** Warning: (vdel-134) Unable to remove locked optimized design "_opt".  Locker is mimccom@CEAT-ENDV360-27.
+# ** Warning: (vlib-34) Library already exists at "work".
+# Model Technology ModelSim SE-64 vlog 10.7f Compiler 2020.03 Mar 24 2020
+# Start time: 14:47:35 on Apr 28,2022
+# vlog -reportprogress 300 comparator.sv counter.sv flopenr.sv des.sv control.sv top.sv tb_class.sv 
+# -- Compiling module comparator
+# -- Compiling module UDL_Count
+# -- Compiling module flop
+# -- Compiling module genParity
+# -- Compiling module genParity8
+# -- Compiling module flopenr
+# -- Compiling module GenerateKeys
+# -- Compiling module PC1
+# -- Compiling module PC2
+# -- Compiling module SF
+# -- Compiling module EF
+# -- Compiling module feistel
+# -- Compiling module round
+# -- Compiling module IP
+# -- Compiling module FP
+# -- Compiling module S1_Box
+# -- Compiling module S2_Box
+# -- Compiling module S3_Box
+# -- Compiling module S4_Box
+# -- Compiling module S5_Box
+# -- Compiling module S6_Box
+# -- Compiling module S7_Box
+# -- Compiling module S8_Box
+# -- Compiling module DES
+# -- Compiling module control
+# -- Compiling module top
+# -- Compiling module stimulus_class
+# 
+# Top level modules:
+# 	stimulus_class
+# End time: 14:47:35 on Apr 28,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# End time: 14:47:36 on Apr 28,2022, Elapsed time: 0:01:21
+# Errors: 0, Warnings: 1
+# vsim -voptargs="+acc" work.stimulus_class 
+# Start time: 14:47:36 on Apr 28,2022
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# Loading sv_std.std
+# Loading work.stimulus_class(fast)
+# Loading work.top(fast)
+# Loading work.control(fast)
+# Loading work.UDL_Count(fast)
+# Loading work.flop(fast)
+# Loading work.genParity8(fast)
+# Loading work.genParity(fast)
+# Loading work.DES(fast)
+# Loading work.GenerateKeys(fast)
+# Loading work.PC1(fast)
+# Loading work.PC2(fast)
+# Loading work.IP(fast)
+# Loading work.round(fast)
+# Loading work.feistel(fast)
+# Loading work.EF(fast)
+# Loading work.S1_Box(fast)
+# Loading work.S2_Box(fast)
+# Loading work.S3_Box(fast)
+# Loading work.S4_Box(fast)
+# Loading work.S5_Box(fast)
+# Loading work.S6_Box(fast)
+# Loading work.S7_Box(fast)
+# Loading work.S8_Box(fast)
+# Loading work.SF(fast)
+# Loading work.FP(fast)
+# Loading work.flopenr(fast)
+# Loading work.comparator(fast)
+# Found key!
+# ** Note: $stop    : tb_class.sv(56)
+#    Time: 935 ns  Iteration: 0  Instance: /stimulus_class
+# Break in Module stimulus_class at tb_class.sv line 56
+do class.do
+# ** Warning: (vdel-134) Unable to remove locked optimized design "_opt".  Locker is mimccom@CEAT-ENDV360-27.
+# ** Warning: (vlib-34) Library already exists at "work".
+# Model Technology ModelSim SE-64 vlog 10.7f Compiler 2020.03 Mar 24 2020
+# Start time: 14:48:28 on Apr 28,2022
+# vlog -reportprogress 300 comparator.sv counter.sv flopenr.sv des.sv control.sv top.sv tb_class.sv 
+# -- Compiling module comparator
+# -- Compiling module UDL_Count
+# -- Compiling module flop
+# -- Compiling module genParity
+# -- Compiling module genParity8
+# -- Compiling module flopenr
+# -- Compiling module GenerateKeys
+# -- Compiling module PC1
+# -- Compiling module PC2
+# -- Compiling module SF
+# -- Compiling module EF
+# -- Compiling module feistel
+# -- Compiling module round
+# -- Compiling module IP
+# -- Compiling module FP
+# -- Compiling module S1_Box
+# -- Compiling module S2_Box
+# -- Compiling module S3_Box
+# -- Compiling module S4_Box
+# -- Compiling module S5_Box
+# -- Compiling module S6_Box
+# -- Compiling module S7_Box
+# -- Compiling module S8_Box
+# -- Compiling module DES
+# -- Compiling module control
+# -- Compiling module top
+# -- Compiling module stimulus_class
+# 
+# Top level modules:
+# 	stimulus_class
+# End time: 14:48:28 on Apr 28,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# End time: 14:48:33 on Apr 28,2022, Elapsed time: 0:00:57
+# Errors: 0, Warnings: 1
+# vsim -voptargs="+acc" work.stimulus_class 
+# Start time: 14:48:33 on Apr 28,2022
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# Loading sv_std.std
+# Loading work.stimulus_class(fast)
+# Loading work.top(fast)
+# Loading work.control(fast)
+# Loading work.UDL_Count(fast)
+# Loading work.flop(fast)
+# Loading work.genParity8(fast)
+# Loading work.genParity(fast)
+# Loading work.DES(fast)
+# Loading work.GenerateKeys(fast)
+# Loading work.PC1(fast)
+# Loading work.PC2(fast)
+# Loading work.IP(fast)
+# Loading work.round(fast)
+# Loading work.feistel(fast)
+# Loading work.EF(fast)
+# Loading work.S1_Box(fast)
+# Loading work.S2_Box(fast)
+# Loading work.S3_Box(fast)
+# Loading work.S4_Box(fast)
+# Loading work.S5_Box(fast)
+# Loading work.S6_Box(fast)
+# Loading work.S7_Box(fast)
+# Loading work.S8_Box(fast)
+# Loading work.SF(fast)
+# Loading work.FP(fast)
+# Loading work.flopenr(fast)
+# Loading work.comparator(fast)
+# Found key!
+# ** Note: $stop    : tb_class.sv(56)
+#    Time: 2201695 ns  Iteration: 0  Instance: /stimulus_class
+# Break in Module stimulus_class at tb_class.sv line 56
+# End time: 16:18:30 on Apr 28,2022, Elapsed time: 1:29:57
+# Errors: 0, Warnings: 0
